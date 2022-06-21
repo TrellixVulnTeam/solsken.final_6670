@@ -1,0 +1,302 @@
+* 
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+body
+{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.416), rgba(255, 255, 255, 0.904)), 
+    url("/35-Photo-by-You-Hongxiang5-1024x768.webp"); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; 
+}
+
+.containerGlobal 
+{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 140px 705px 633px 650px 650px 600px 200px;
+  grid-template-areas: 
+  "NOM HEAD"
+ "carru carru"
+ "text1 img1"
+ "img2 text2"
+ "text3 img3"
+ "img4 img4"
+ "foot foot"; 
+}
+
+.Nombre 
+{
+  grid-area: NOM;
+}
+
+.containerHeader 
+{
+  grid-area: HEAD;
+}
+
+.carru 
+{
+  grid-area: carru;
+  background-color: azure; 
+}
+
+.carousel-item active img 
+{
+  height: 705px; 
+}
+
+.carousel-item img 
+{
+  height: 705px; 
+}
+
+/**
+
+  .containerMain 
+  {
+    grid-area: text;
+    border: solid black 3px;
+    background-color: aquamarine; 
+  }
+
+  .containerMain
+  {
+    background-color: red; 
+  }
+
+**/
+
+.text1
+{
+  grid-area: text1;
+}
+
+.img1
+{
+  grid-area: img1;   
+}
+
+.text2
+{
+  grid-area: text2;
+}
+
+.img2
+{
+  grid-area: img2;
+}
+
+.text3
+{
+  grid-area: text3;
+}
+
+.img3
+{
+  grid-area: img3;
+}
+
+.img4
+{
+  grid-area: img4;
+}
+
+.footer
+{
+  grid-area: foot;
+}
+
+/****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+/
+
+/*  estilos para el header */
+
+.Nombre
+{
+  font-family: Roboto mono;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p1
+{ 
+  padding-top: 30px;
+  padding-right: 200px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.p2
+{
+  font-size: 10px;
+  padding-right: 200px;
+  color: rgb(0, 0, 0);
+}
+
+.containerHeader
+{
+  display: flex;
+  justify-content: center;
+  font-family: roboto mono;
+  align-items: center;
+}
+
+.containerHeader ul
+{
+  display: flex;
+  list-style: none;
+}
+
+.containerGlobal li
+{
+  padding: 20px;
+  font-size: 20px;
+}
+
+.containerHeader a
+{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+/**************************
+***************************
+*****************************/
+
+/* estilos para el body */ 
+
+.text1
+{
+  display: flex;
+  align-items: center;
+  font-family: josefin;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 115px;
+  padding-left: 35px;
+  color: black;
+}
+
+.img1
+{
+  margin-top: 40px;
+
+}
+
+.img1 img
+{
+  padding-left: 150px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.img2 img
+{
+  padding-left: 150px;
+  margin-top: 120px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.text2
+{
+  display: flex; 
+  align-items: center;
+  margin-top: 120px;
+  padding-right: 100px;
+  padding-left: 140 px;
+  font-family: josefin;
+  font-size: 25px;
+  color: black;
+}
+
+.img3 img
+{
+  padding-left: 150px;
+  margin-top: 120px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.text3
+{
+  display: flex;
+  align-items: center;
+  font-family: josefin;
+  margin-top: 120px;
+  font-size: 25px;
+  color: black;
+  padding-left: 150px;
+}
+
+.img4
+{
+  margin-top: 120px;
+}
+
+.img4-1
+{
+  width: 81%;
+  height: 600px;
+  margin-left: 150px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/********************
+*********************
+*********************
+*********************
+*********************
+*********************/
+
+.footer
+{
+  margin-top: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.foot1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: josefin sans;
+}
+
+.foot1-2
+{
+  display: flex;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot2
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: bebas;
+}
+
+.foot3
+{
+  display: flex;
+  justify-content: center;
+  font-family: bebas;
+}

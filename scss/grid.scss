@@ -1,0 +1,114 @@
+/**** grid de index.html ****/
+
+* 
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+body 
+{
+  background-color: #c7c7c7; 
+}
+
+.containerGlobal 
+{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 140px 705px 550px 650px 650px 600px 200px;
+  grid-template-areas: 
+  "NOM HEAD"
+ "carru carru"
+ "text1 img1"
+ "img2 text2"
+ "text3 img3"
+ "img4 img4"
+ "foot foot"; 
+}
+
+.Nombre 
+{
+  grid-area: NOM;
+}
+
+.containerHeader 
+{
+  grid-area: HEAD;
+}
+
+.carru 
+{
+  grid-area: carru;
+  background-color: azure; 
+}
+
+.carousel-item active img 
+{
+  height: 700px; 
+}
+
+.carousel-item img 
+{
+  height: 700px; 
+}
+
+/**
+
+  .containerMain 
+  {
+    grid-area: text;
+    border: solid black 3px;
+    background-color: aquamarine; 
+  }
+
+  .containerMain
+  {
+    background-color: red; 
+  }
+
+**/
+
+.text1
+{
+  grid-area: text1;
+}
+
+.img1
+{
+  grid-area: img1;   
+}
+
+.text2
+{
+  grid-area: text2;
+}
+
+.img2
+{
+  grid-area: img2;
+}
+
+.text3
+{
+  grid-area: text3;
+}
+
+.img3
+{
+  grid-area: img3;
+}
+
+.img4
+{
+  grid-area: img4;
+}
+
+.footer
+{
+  grid-area: foot;
+}
+
+
+/**** grid de interiores.html ****/
+
