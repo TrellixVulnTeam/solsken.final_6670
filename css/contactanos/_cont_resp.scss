@@ -1,0 +1,147 @@
+
+@media (max-width:768px)
+{
+    .Container-Global
+    {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 
+        110px /* head */
+        200px /* head */
+        400px /*Hero-Main*/
+        500px /*Hero-Form*/
+        500px /*Hero-Icons*/
+        550px /*Hero-Section*/
+        530px /*footer*/
+        ;
+
+        grid-template-areas: 
+        "nom"
+        "heaad"
+        "Heros-Main"
+        "Heros-Form"
+        "Heros-Icons"
+        "Heros-Section"
+        "foo"
+        ;
+    }
+
+    .Hero-Logo
+    {
+        grid-area: nom;
+    }
+
+    .Hero-Header
+    {
+        grid-area: heaad;
+    }
+
+    .Hero-Header ul 
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .Hero-Header li 
+    {
+        margin: 0;
+    }
+
+    .Hero-Main   
+    {
+        grid-area: Heros-Main;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .Hero-Form
+    {
+        grid-area: Heros-Form;
+        padding: 0;
+    }
+    
+    .Itemco
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Itemcon
+    {
+        width: 100%;
+        padding: 5px;        
+    }
+
+    .textarea
+    {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 255px;
+    }
+
+
+    .Hero-Icons
+    {
+        grid-area: Heros-Icons;
+        display: flex; 
+        flex-direction: column;       
+        justify-content: center;
+        align-items: center;        
+    }
+
+    .Icons-Tel
+    {
+        width: 100%;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;       
+    }
+
+    .Icons-Maps
+    {
+        width: 100%;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+    }
+
+    .Icons-Email
+    {
+        width: 100%;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+    }
+
+
+
+    .Hero-Section
+    {
+        grid-area: Heros-Section;
+        padding-bottom: 0;
+    }
+
+    .Hero-Section h2
+    {
+        font-size: 30px;
+    }    
+
+    .Iframe-maps iframe
+    {
+        width: 400px;
+    }
+
+    .Hero-Foot
+    {
+        grid-area: foo;
+    }
+}

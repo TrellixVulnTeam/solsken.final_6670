@@ -1,0 +1,168 @@
+
+@media (max-width:768px)
+{
+    .containerGlobal-marc
+    {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 
+        110px /* head */
+        200px /* head */
+        400px /* carrousel*/
+        800px /*hero-text*/
+        500px /*img1*/
+        500px /*img2*/
+        500px /*img3*/
+        500px /*img4*/
+        500px /*img5*/
+        500px /*img6*/
+        500px /*img7*/
+        500px /*img8*/
+        500px /*footer*/
+        ;
+
+        grid-template-areas: 
+        "nom"
+        "heaad"
+        "carr"
+        "heros-text"
+        "img1s"
+        "img2s"
+        "img3s"
+        "img4s"
+        "img5s"
+        "img6s"
+        "img7s"
+        "img8s"
+        "foo"
+        ;
+    }
+
+    .Hero-Name
+    {
+        grid-area: nom;
+    }
+
+    .Hero-Header
+    {
+        grid-area: heaad;     
+    }
+
+    .Hero-Header ul
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .Hero-Header li
+    {        
+        margin: 0;
+    }
+
+    .carru
+    {
+        grid-area: carr;
+    }
+
+    .carousel-item active
+    {
+        width: 100%;
+        height: 400px;
+    }
+
+    .carousel-item
+    {
+        width: 100%;
+        height: 400px;
+    }
+
+
+
+    .hero-text
+    {
+        grid-area: heros-text;
+        font-size: 18px;
+        padding: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .img1
+    {
+        grid-area: img1s;
+        padding: 0;
+        margin: 0;        
+    }    
+
+    .img2
+    {
+        grid-area: img2s;        
+        padding: 0;
+        margin: 0;
+    }    
+
+    .img3
+    {
+        grid-area: img3s; 
+        padding: 0;
+        margin: 0;        
+       
+    }    
+
+    .img4
+    {
+        grid-area: img4s;
+        padding: 0;
+        margin: 0;        
+        
+    }    
+
+    .img5
+    {
+        grid-area: img5s;
+        padding: 0;
+        margin: 0;        
+        
+    }    
+
+    .img6
+    {
+        grid-area: img6s;
+        padding: 0;
+        margin: 0;        
+        
+    }    
+
+    .img7
+    {
+        grid-area: img7s;
+        padding: 0;
+        margin: 0;        
+        
+    }    
+
+    .img8
+    {
+        grid-area: img8s;
+        padding: 0;
+        margin: 0;        
+        
+    }    
+
+    .hero-foot-0
+    {
+        grid-area: foo;        
+    }    
+
+    .ima
+    {
+        width: 640px;
+        height: 400px;
+    }
+
+
+
+
+
+}   

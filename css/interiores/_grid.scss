@@ -1,0 +1,105 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+  background-image:linear-gradient(rgba(255, 255, 255, 0.416), rgba(255, 255, 255, 0.904)), 
+    url("/imagenes/leather-sofa-and-wooden-table-in-living-room-interior-with-plant-concrete-wall-for-tv-3d-rendering.jpg"); 
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-attachment:fixed;
+  background-size:cover; 
+}
+
+.containerGlobal
+{
+    display: grid;
+    grid-template-columns: 
+    25% 
+    25%
+    25%
+    25%
+    ;
+
+    grid-template-rows: 
+        110px  /*header */
+        724px  /* carru */ 
+        500px  /* texto */
+        600px  /* foto sola 1 */ 
+        500px  /* foto en conjunto 1 */
+        700px  /* foto sola 2 */ 
+        500px  /* fot en conjunto 2 */
+        500px  /* footer */ 
+        ;
+    
+    grid-template-areas: 
+    "name head head head"
+    "carru carru carru carru"
+    "main main main main"
+    "img1 img1 img1 img1"
+    "img2 img2 img3 img3"
+    "img4 img4 img4 img4"
+    "img5 img5 img6 img6"
+    "pie pie pie pie"
+    ; 
+} 
+
+.name
+{
+    grid-area: name;
+}
+
+.containerHeader
+{
+    grid-area: head;
+}
+
+.carru
+{
+    grid-area: carru;
+}
+
+.main
+{
+    grid-area: main;
+}
+
+.img1
+{
+    grid-area: img1;
+}
+
+.img2
+{
+
+    grid-area: img2;
+}
+
+.img3
+{
+    grid-area: img3;
+}
+
+.img4
+{
+    grid-area: img4;
+}
+
+.img5
+{
+    grid-area: img5;
+}
+
+.img6
+{
+    grid-area: img6;
+}
+
+.hero-foot-0
+{
+    grid-area: pie;
+}

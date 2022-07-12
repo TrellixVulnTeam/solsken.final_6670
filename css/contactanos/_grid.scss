@@ -1,0 +1,88 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+ background-image:linear-gradient(rgba(255, 255, 255, 0.416), rgba(255, 255, 255, 0.904)), 
+    url("/imagenes/leather-sofa-and-wooden-table-in-living-room-interior-with-plant-concrete-wall-for-tv-3d-rendering.jpg"); 
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-attachment:fixed;
+  background-size:cover; 
+
+}
+
+.Container-Global
+{
+    display: grid;
+        grid-template-columns: 
+        25%
+        25%
+        25%
+        25%
+        ;
+        
+        grid-template-rows: 
+        110px /*  header */
+        300px /* message */
+        400px /* form */ 
+        250px /* icons + Text */ 
+        650px /* head + maps */
+        500px /*foot */
+        ;
+        grid-template-areas: 
+        "logo head head head"
+        "main main main main"
+        "form form form form"
+        "icon icon icon icon"
+        "maps maps maps maps"
+        "foot foot foot foot"
+        ;
+}
+
+/* header */ 
+
+.Hero-Logo
+{
+    grid-area: logo;
+    
+}
+
+.Hero-Header
+{
+    grid-area: head;
+    
+}
+
+/* main */ 
+
+.Hero-Main
+{
+    grid-area: main;
+    
+}
+
+.Hero-Form
+{
+    grid-area: form;
+   
+}
+
+.Hero-Icons
+{
+    grid-area: icon;
+}
+
+.Hero-Section
+{
+    grid-area: maps;
+}
+
+.Hero-Foot
+{
+    grid-area: foot;
+}

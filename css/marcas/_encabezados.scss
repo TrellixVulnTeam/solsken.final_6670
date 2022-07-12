@@ -1,0 +1,44 @@
+.Hero-Name
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.solsken
+{ 
+    width: 160px;
+}
+
+.Hero-Header
+{
+    display: flex;
+    justify-content: center;
+    font-family: Josefin sans;
+    align-items: center;
+}
+
+.Hero-Header ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.Hero-Header li
+{
+    padding-right: 20px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.Hero-Header a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.Hero-Header a:hover
+{
+    color: black;
+    font-weight: bold;
+}

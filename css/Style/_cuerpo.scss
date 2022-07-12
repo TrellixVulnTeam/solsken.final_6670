@@ -1,0 +1,97 @@
+
+/*Variable color aplica sobre el text1, text2 y text3*/
+$colortexto: black;
+
+.text0
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: josefin sans;
+  font-size: 22px;
+  padding: 250px;
+  
+}
+
+.text1
+{
+  display: flex;
+  align-items: center;
+  font-family: josefin sans;
+  font-size: 22px;
+  margin-top: 40px;
+  margin-left: 115px;
+  padding-left: 35px;
+  color: $colortexto;
+}
+
+.img1
+{
+  margin-top: 40px;
+  padding-left: 280px;  
+}
+
+.img1 img
+{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.img2
+{
+  padding-left: 150px;
+}
+
+.img2 img
+{
+  margin-top: 120px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.text2
+{
+  display: flex; 
+  align-items: center;
+  margin-top: 120px;
+  padding-right: 100px;
+  padding-left: 140 px;
+  font-family: josefin sans;
+  font-size: 25px;
+  color: $colortexto;
+  
+}
+
+.img3
+{
+  padding-left: 280px;
+}
+
+.img3 img
+{
+  margin-top: 120px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.text3
+{
+  display: flex;
+  align-items: center;
+  font-family: josefin sans;
+  margin-top: 120px;
+  font-size: 25px;
+  color: $colortexto;
+  padding-left: 150px;
+}
+
+.img4
+{
+  margin-top: 120px;
+}
+
+.img4-1
+{
+  width: 81%;
+  height: 600px;
+  margin-left: 150px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}

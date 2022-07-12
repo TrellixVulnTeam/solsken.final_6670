@@ -1,0 +1,156 @@
+
+/*@mixin para controlar el tamaño del carousel*/
+@mixin tamaño($width, $height)
+ {
+     width: $width;
+     height: $height;
+ }
+
+
+* 
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+body
+{
+  background-image:linear-gradient(rgba(255, 255, 255, 0.416), rgba(255, 255, 255, 0.904)), 
+    url("/imagenes/leather-sofa-and-wooden-table-in-living-room-interior-with-plant-concrete-wall-for-tv-3d-rendering.jpg"); 
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-attachment:fixed;
+  background-size:cover; 
+}
+
+
+.containerGlobal 
+{
+  display: grid;
+    grid-template-columns: 
+    25% 
+    25%
+    25%
+    25%
+    ;
+    grid-template-rows: 
+      110px 
+      724px 
+      400px 
+      550px 
+      450px 
+      650px 
+      750px 
+      500px
+    ;
+
+  grid-template-areas: 
+  "NOM HEAD HEAD HEAD"
+ "carru carru carru carru"
+ "text0 text0 text0 text0"
+ "text1 text1 img1 img1"
+ "img2 img2 text2 text2"
+ "text3 text3 img3 img3"
+ "img4 img4 img4 img4"
+ "foot foot foot foot"; 
+}
+
+.Nombre 
+{
+  grid-area: NOM;
+}
+
+.containerHeader 
+{
+  grid-area: HEAD;
+}
+
+.carru 
+{
+  grid-area: carru;
+  background-color: azure; 
+}
+
+.carousel-item active img 
+{
+  height: 724px;
+  width: 100%; 
+}
+
+.carousel-item img 
+{
+  @include tamaño(100%, 724px);
+}
+
+/*
+.carousel-item img 
+{
+  height: 724px;
+  width: 100%; 
+}
+*/
+
+
+/**
+
+  .containerMain 
+  {
+    grid-area: text;
+    border: solid black 3px;
+    background-color: aquamarine; 
+  }
+
+  .containerMain
+  {
+    background-color: red; 
+  }
+
+**/
+
+.text0
+{
+  grid-area: text0;
+  
+}
+
+
+.text1
+{
+  grid-area: text1;
+}
+
+.img1
+{
+  grid-area: img1;   
+}
+
+.text2
+{
+  grid-area: text2;
+}
+
+.img2
+{
+  grid-area: img2;
+}
+
+.text3
+{
+  grid-area: text3;
+}
+
+.img3
+{
+  grid-area: img3;
+}
+
+.img4
+{
+  grid-area: img4;
+}
+
+.footer
+{
+  grid-area: foot;
+}

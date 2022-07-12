@@ -1,0 +1,22 @@
+/* @mixin -- se aplico sobre la clase .aaa 
+se llamo asi: @include fuentepersonalizada();
+
+en esta página se utilizó asi sobre el cuerpo de la 
+págna de estilo principal style.scss:
+
+.img1
+{
+  margin-top: 40px;
+  padding-left: 280px;  
+}
+
+se llamá asi: @include fuentepersonalizada();
+
+
+*/
+
+@mixin fuentepersonalizada
+{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}

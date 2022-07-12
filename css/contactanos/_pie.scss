@@ -1,0 +1,49 @@
+.Hero-Foot
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 70px;
+    border-top: solid 3px;  
+}
+
+.hero-foot-1
+{
+    font-family: Roboto Mono;
+    padding-bottom: 10px;
+    padding-top: 35px;
+}
+
+.hero-foot-2
+{
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.hero-foot-2 img
+{
+    padding: 3px;
+}
+
+.hero-foot-3
+{
+    font-family: Roboto mono;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-foot-3-2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-foot-3-3
+{
+    display: flex;
+    justify-content: center;
+}

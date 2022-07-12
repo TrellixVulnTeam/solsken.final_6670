@@ -1,0 +1,178 @@
+.Hero-Main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Main-h1
+{
+    margin-bottom: 50px;
+    font-family: Josefin sans;
+}
+
+.Main-p-1
+{
+    font-family: josefin sans;
+    font-size: 20px;  
+}
+
+.Main-p-2
+{
+    font-family: Josefin sans;
+    font-size: 20px;
+}
+
+
+.Hero-Form
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container
+{   
+    width: 56%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container1
+{
+    display: flex;
+    justify-content: center;
+    font-family: Josefin sans;
+}
+
+.Itemco
+{
+    display: flex;    
+}
+
+.Itemcon
+{
+    display: flex;
+    width: 280px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Itemcon input
+{
+    border-radius: 100px;
+}
+
+.textarea
+{
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    padding: 10px;
+}
+
+.textarea textarea
+{
+    border-radius: 5px;
+}
+
+.enviar
+{
+    width: 98%;
+    padding-left: 10px;
+}
+
+.enviar input
+{
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+}
+
+.form_cta
+{
+    width: 100%;    
+}
+
+.Form_imput1
+{
+    width: 100%;
+}
+
+.Form_imput2
+{
+    width: 100%;
+}
+
+.Form-imput3
+{
+    width: 100%;
+}
+
+
+
+
+
+.Hero-Icons
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.Icons-Tel
+{
+    font-family: Josefin sans;
+}
+
+.Icons-Tel img
+{
+    width: 40px;
+}
+
+.Icons-Maps
+{
+    font-family: Josefin sans;
+}
+
+
+.Icons-Maps img
+{
+    width: 40px;
+}
+
+.Icons-Email
+{
+    font-family: Josefin sans;
+}
+
+.Icons-Email img
+{
+    width: 40px;
+}
+
+.Hero-Section
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Josefin sans;
+    padding-bottom: 80px;
+}
+
+.H1-Sect h2
+{
+    font-size: 45px;
+}
+
+.Iframe-maps iframe
+{
+    width: 1240px;
+}

@@ -1,0 +1,397 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.416), rgba(255, 255, 255, 0.904)), url("/imagenes/leather-sofa-and-wooden-table-in-living-room-interior-with-plant-concrete-wall-for-tv-3d-rendering.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.containerGlobal {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 110px 724px 500px 600px 500px 700px 500px 500px;
+  grid-template-areas: "name head head head" "carru carru carru carru" "main main main main" "img1 img1 img1 img1" "img2 img2 img3 img3" "img4 img4 img4 img4" "img5 img5 img6 img6" "pie pie pie pie";
+}
+
+.name {
+  grid-area: name;
+}
+
+.containerHeader {
+  grid-area: head;
+}
+
+.carru {
+  grid-area: carru;
+}
+
+.main {
+  grid-area: main;
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.img5 {
+  grid-area: img5;
+}
+
+.img6 {
+  grid-area: img6;
+}
+
+.hero-foot-0 {
+  grid-area: pie;
+}
+
+.Hero-Name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.solsken {
+  width: 160px;
+}
+
+.containerHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Josefin sans;
+}
+
+.containerHeader nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.containerHeader nav ul li {
+  padding-right: 20px;
+  font-size: 30px;
+}
+
+.containerHeader nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.containerHeader li {
+  margin-top: 10px;
+}
+
+.containerHeader a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.carousel-item active img {
+  height: 724px;
+}
+
+.carousel-item img {
+  height: 724px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: josefin sans;
+  flex-direction: column;
+  padding: 300px;
+  font-size: 20.5px;
+}
+
+.text1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.text2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  align-content: center;
+  font-size: 25px;
+}
+
+.text3 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.img1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img1 img {
+  height: 460px;
+  width: 1150px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.img2 {
+  display: flex;
+  justify-content: center;
+  padding-left: 155px;
+  padding-top: 25px;
+}
+
+.img2 img {
+  height: 460px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.img3 {
+  display: flex;
+  justify-content: center;
+  padding-right: 155px;
+  padding-top: 25px;
+}
+
+.img3 img {
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.img4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img4 img {
+  height: 650px;
+  width: 1150px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.img5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 155px;
+}
+
+.img5 img {
+  height: 460px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.img6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 155px;
+}
+
+.img6 img {
+  height: 460px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.hero-foot-0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 70px;
+  border-top: solid 3px;
+}
+
+.hero-foot-1 {
+  font-family: Roboto Mono;
+  padding-bottom: 10px;
+  padding-top: 35px;
+}
+
+.hero-foot-2 {
+  display: flex;
+  width: 50px;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.hero-foot-2 img {
+  padding: 3px;
+}
+
+.hero-foot-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-foot-3-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-foot-3-3 {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .containerGlobal {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 110px 200px 400px 600px 500px 485px 500px 600px 500px 500px 500px;
+    grid-template-areas: "nom" "heaad" "carr" "mains" "img1s" "img2s" "img3s" "img4s" "img5s" "img6s" "foo";
+  }
+  .Hero-Name {
+    grid-area: nom;
+  }
+  .containerHeader {
+    grid-area: heaad;
+  }
+  .ul- {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .containerHeader li {
+    padding: 0;
+    margin: 0;
+  }
+  .carru {
+    grid-area: carr;
+  }
+  .main {
+    grid-area: mains;
+    margin: 10px;
+    padding: 0;
+  }
+  .text1 {
+    font-size: 18px;
+  }
+  .text2 {
+    font-size: 18px;
+  }
+  .text3 {
+    font-size: 18px;
+  }
+  .carousel-item active img {
+    width: 100%;
+    height: 400px;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 400px;
+  }
+  .img1 {
+    width: 100%;
+    height: 500px;
+    grid-area: img1s;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1000px;
+  }
+  .img2 {
+    width: 100%;
+    height: 500px;
+    grid-area: img2s;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+  }
+  .img3 {
+    width: 100%;
+    height: 500px;
+    grid-area: img3s;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 300px;
+  }
+  .img4 {
+    width: 100%;
+    height: 400px;
+    grid-area: img4s;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+  }
+  .img5 {
+    width: 100%;
+    height: 500px;
+    grid-area: img5s;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+  }
+  .img6 {
+    width: 100%;
+    height: 500px;
+    grid-area: img6s;
+    margin: 0;
+    padding: 0;
+  }
+  .ima1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+  .ima2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+  .ima3 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+  .ima4 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+  .ima5 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+  .ima6 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+  .hero-foot-0 {
+    grid-area: foo;
+  }
+}
+
+/*# sourceMappingURL=interiores.css.map */

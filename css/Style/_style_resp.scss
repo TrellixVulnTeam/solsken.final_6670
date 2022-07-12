@@ -1,0 +1,182 @@
+
+@media (max-width:768px)
+{
+    .containerGlobal
+    {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 
+        110px /* head */
+        200px /* head */
+        400px /* carrousel*/
+        500px /*texto0*/
+        200px /*texto1*/
+        400px /*img1*/
+        200px /*texto2*/
+        400px /*img2*/
+        200px /*texto3*/
+        400px /*img3*/
+        400px /*img4*/
+        400px /*footer*/
+        ;
+
+        grid-template-areas: 
+        "nom"
+        "heaad"
+        "carr"
+        "text0s"
+        "text1s"
+        "img1s"
+        "text2s"
+        "img2s"
+        "text3s"
+        "img3s"
+        "img4s"
+        "foo"
+        ;
+    }
+
+    .Nombre
+    {
+        grid-area: nom;
+    }
+
+    .containerHeader
+    {
+        grid-area: heaad;     
+    }
+
+    .containerHeader ul
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .containerHeader li
+    {
+        margin-top: 0;
+    }
+
+
+    .carru
+    {
+        grid-area: carr;
+    }
+
+    .text0
+    {
+        grid-area: text0s;        
+        font-size: 18px;
+        margin: 10px;
+        padding:0;
+    }
+
+    .carousel-item active img 
+    {
+      width: 100%;
+      height: 400px; 
+    }
+    
+    .carousel-item img 
+    {
+      width: 100%;
+      height: 400px; 
+    }
+    
+    .text1
+    {
+        grid-area: text1s;
+        font-size: 18px;
+        margin: 10px;
+        padding:0;
+    }
+
+    .img1
+    {
+        grid-area: img1s;
+        margin: 0;
+        padding:0;        
+    }
+
+    .ima
+    {
+        width: 100%;
+        height: 400px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .img4-1
+    {
+        width: 100%;
+        height: 400px;
+        margin: 0;
+        padding:0;
+        box-shadow: none;
+        padding-top: 10px;
+    }
+
+    .text2
+    {
+        grid-area: text2s;
+        font-size: 18px;
+        margin: 10px;
+        padding:0;
+    }
+
+    .img2
+    {
+        grid-area: img2s;
+        margin: 0;
+        padding:0;
+    }
+
+    .img2 img
+    {
+        margin: 0;
+    }
+
+    .text3
+    {
+        grid-area: text3s;
+        font-size: 18px;
+        margin: 10px;
+        padding:0;
+
+    }
+
+    .img3
+    {
+        grid-area: img3s;
+        margin: 0;
+        padding:0;
+    }
+
+    .img3 img
+    {
+        margin-top: 0;
+    }
+
+
+    .img4
+    {
+        grid-area: img4s;
+        width: 100%;
+        height: 400px;
+        margin: 0;
+        padding:0;        
+    }
+
+    .img4 img
+    {
+        margin: 0;
+    }
+
+
+    .footer
+    {
+        grid-area: foo;
+    }
+
+}

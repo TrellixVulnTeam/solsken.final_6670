@@ -1,0 +1,48 @@
+
+/* mixin para controlar foot1 */
+@mixin fuentepersonalizada
+{
+  font-size: 32px;
+  font-family: Roboto Mono;
+  padding-bottom: 10px;
+  padding-top: 35px;    
+}
+
+
+
+.footer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 70px;
+  border-top: solid 3px;
+}
+
+.foot1
+{
+  @include fuentepersonalizada(); 
+}
+
+
+.foot-2
+{
+  display: flex;
+  width: 50px;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.foot-2 img
+{
+  padding: 3px;
+}
+
+.foot3
+{
+  font-family: Roboto mono;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

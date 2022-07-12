@@ -1,0 +1,368 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.416), rgba(255, 255, 255, 0.904)), url("/imagenes/leather-sofa-and-wooden-table-in-living-room-interior-with-plant-concrete-wall-for-tv-3d-rendering.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Container-Global {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 110px 300px 400px 250px 650px 500px;
+  grid-template-areas: "logo head head head" "main main main main" "form form form form" "icon icon icon icon" "maps maps maps maps" "foot foot foot foot";
+}
+
+/* header */
+.Hero-Logo {
+  grid-area: logo;
+}
+
+.Hero-Header {
+  grid-area: head;
+}
+
+/* main */
+.Hero-Main {
+  grid-area: main;
+}
+
+.Hero-Form {
+  grid-area: form;
+}
+
+.Hero-Icons {
+  grid-area: icon;
+}
+
+.Hero-Section {
+  grid-area: maps;
+}
+
+.Hero-Foot {
+  grid-area: foot;
+}
+
+.Hero-Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Solsken {
+  width: 160px;
+}
+
+.Hero-Header {
+  display: flex;
+  justify-content: center;
+  font-family: Josefin sans;
+  align-items: center;
+}
+
+.Hero-Header ul {
+  display: flex;
+  list-style: none;
+}
+
+.Hero-Header li {
+  font-size: 30px;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+
+.Hero-Header a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.Hero-Header a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.Hero-Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Main-h1 {
+  margin-bottom: 50px;
+  font-family: Josefin sans;
+}
+
+.Main-p-1 {
+  font-family: josefin sans;
+  font-size: 20px;
+}
+
+.Main-p-2 {
+  font-family: Josefin sans;
+  font-size: 20px;
+}
+
+.Hero-Form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  width: 56%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-container1 {
+  display: flex;
+  justify-content: center;
+  font-family: Josefin sans;
+}
+
+.Itemco {
+  display: flex;
+}
+
+.Itemcon {
+  display: flex;
+  width: 280px;
+  height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Itemcon input {
+  border-radius: 100px;
+}
+
+.textarea {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.textarea textarea {
+  border-radius: 5px;
+}
+
+.enviar {
+  width: 98%;
+  padding-left: 10px;
+}
+
+.enviar input {
+  color: white;
+  background-color: black;
+  border-radius: 100px;
+}
+
+.form_cta {
+  width: 100%;
+}
+
+.Form_imput1 {
+  width: 100%;
+}
+
+.Form_imput2 {
+  width: 100%;
+}
+
+.Form-imput3 {
+  width: 100%;
+}
+
+.Hero-Icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.Icons-Tel {
+  font-family: Josefin sans;
+}
+
+.Icons-Tel img {
+  width: 40px;
+}
+
+.Icons-Maps {
+  font-family: Josefin sans;
+}
+
+.Icons-Maps img {
+  width: 40px;
+}
+
+.Icons-Email {
+  font-family: Josefin sans;
+}
+
+.Icons-Email img {
+  width: 40px;
+}
+
+.Hero-Section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Josefin sans;
+  padding-bottom: 80px;
+}
+
+.H1-Sect h2 {
+  font-size: 45px;
+}
+
+.Iframe-maps iframe {
+  width: 1240px;
+}
+
+.Hero-Foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 70px;
+  border-top: solid 3px;
+}
+
+.hero-foot-1 {
+  font-family: Roboto Mono;
+  padding-bottom: 10px;
+  padding-top: 35px;
+}
+
+.hero-foot-2 {
+  display: flex;
+  width: 50px;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.hero-foot-2 img {
+  padding: 3px;
+}
+
+.hero-foot-3 {
+  font-family: Roboto mono;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-foot-3-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-foot-3-3 {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .Container-Global {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 110px 200px 400px 500px 500px 550px 530px;
+    grid-template-areas: "nom" "heaad" "Heros-Main" "Heros-Form" "Heros-Icons" "Heros-Section" "foo";
+  }
+  .Hero-Logo {
+    grid-area: nom;
+  }
+  .Hero-Header {
+    grid-area: heaad;
+  }
+  .Hero-Header ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .Hero-Header li {
+    margin: 0;
+  }
+  .Hero-Main {
+    grid-area: Heros-Main;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .Hero-Form {
+    grid-area: Heros-Form;
+    padding: 0;
+  }
+  .Itemco {
+    display: flex;
+    flex-direction: column;
+  }
+  .Itemcon {
+    width: 100%;
+    padding: 5px;
+  }
+  .textarea {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 255px;
+  }
+  .Hero-Icons {
+    grid-area: Heros-Icons;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Icons-Tel {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Icons-Maps {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Icons-Email {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Hero-Section {
+    grid-area: Heros-Section;
+    padding-bottom: 0;
+  }
+  .Hero-Section h2 {
+    font-size: 30px;
+  }
+  .Iframe-maps iframe {
+    width: 400px;
+  }
+  .Hero-Foot {
+    grid-area: foo;
+  }
+}
+
+/*# sourceMappingURL=contactanos.css.map */

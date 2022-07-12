@@ -1,0 +1,212 @@
+
+@media (max-width:768px)
+{
+    .containerGlobal
+    {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 
+        110px /* head */
+        200px /* head */
+        400px /* carrousel*/
+        600px /*main*/
+        500px /*img1*/
+        485px /*img2*/
+        500px /*img3*/
+        600px /*img4*/
+        500px /*img5*/
+        500px /*img6*/
+        500px /*footer*/
+        ;
+
+        grid-template-areas: 
+        "nom"
+        "heaad"
+        "carr"
+        "mains"
+        "img1s"
+        "img2s"
+        "img3s"
+        "img4s"
+        "img5s"
+        "img6s"
+        "foo"
+        ;
+    }
+
+    .Hero-Name
+    {
+        grid-area: nom;
+    }
+
+    .containerHeader
+    {
+        grid-area: heaad;     
+    }
+
+    .ul- 
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;        
+    }
+
+    .containerHeader li
+    {
+        padding: 0;
+        margin: 0;
+    }
+
+    .carru
+    {
+        grid-area: carr;
+    }
+
+    .main 
+    {
+        grid-area: mains;     
+        margin: 10px;
+        padding:0;        
+    }
+
+    .text1
+    {
+        font-size: 18px;
+    }
+
+    .text2
+    {
+        font-size: 18px;
+    }
+    
+    .text3
+    {
+        font-size: 18px;
+    }
+
+    .carousel-item active img 
+    {
+      width: 100%;
+      height: 400px; 
+    }
+    
+    .carousel-item img 
+    {
+      width: 100%;
+      height: 400px; 
+    }    
+
+    .img1
+    {
+        width: 100%;
+        height: 500px;
+        grid-area: img1s;
+        margin: 0;
+        padding:0;
+        margin-bottom: 1000px;
+    }
+
+    .img2
+    {
+        width: 100%;
+        height: 500px;
+        grid-area: img2s;
+        margin: 0;
+        padding:0;
+        margin-bottom: 100px;
+    }
+
+    .img3
+    {
+        width: 100%;
+        height: 500px;
+        grid-area: img3s;
+        margin: 0;
+        padding:0;
+        margin-bottom: 300px;
+    }
+
+    .img4
+    {
+        width: 100%;
+        height: 400px;
+        grid-area: img4s;
+        margin: 0;
+        padding:0;
+        margin-top: 100px;
+    }
+
+    .img5
+    {
+        width: 100%;
+        height: 500px;
+        grid-area: img5s;
+        margin: 0;
+        padding:0;
+        margin-top: 25px;
+    }
+
+    .img6
+    {
+        width: 100%;
+        height: 500px;
+        grid-area: img6s;
+        margin: 0;
+        padding:0;        
+    }    
+    
+    .ima1
+    {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }    
+
+    .ima2
+    {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }   
+    
+    .ima3
+    {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }    
+    
+    .ima4
+    {
+        width: 100%;    
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }    
+
+    .ima5
+    {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }    
+
+    .ima6
+    {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    
+    .hero-foot-0
+    {
+        grid-area: foo;        
+    }
+
+}

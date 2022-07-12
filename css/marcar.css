@@ -1,0 +1,391 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.416), rgba(255, 255, 255, 0.904)), url("/imagenes/leather-sofa-and-wooden-table-in-living-room-interior-with-plant-concrete-wall-for-tv-3d-rendering.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.containerGlobal-marc {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 110px 744px 600px 500px 500px 500px 500px;
+  grid-template-areas: "name head head head" "carru carru carru carru" "text text text text" "img1 img1 img2 img2" "img3 img3 img4 img4" "img5 img5 img6 img6" "img7 img7 img8 img8" "foot foot foot foot";
+}
+
+.Hero-Name {
+  grid-area: name;
+}
+
+.Hero-Header {
+  grid-area: head;
+}
+
+.carru {
+  grid-area: carru;
+}
+
+.hero-text {
+  grid-area: text;
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.img5 {
+  grid-area: img5;
+}
+
+.img6 {
+  grid-area: img6;
+}
+
+.img7 {
+  grid-area: img7;
+}
+
+.img8 {
+  grid-area: img8;
+}
+
+.hero-foot-0 {
+  grid-area: foot;
+}
+
+.Hero-Name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.solsken {
+  width: 160px;
+}
+
+.Hero-Header {
+  display: flex;
+  justify-content: center;
+  font-family: Josefin sans;
+  align-items: center;
+}
+
+.Hero-Header ul {
+  display: flex;
+  list-style: none;
+}
+
+.Hero-Header li {
+  padding-right: 20px;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.Hero-Header a {
+  text-decoration: none;
+  color: black;
+}
+
+.Hero-Header a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.carousel-item active img {
+  height: 620px;
+}
+
+.carousel-item img {
+  height: 620px;
+}
+
+.hero-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: space-around;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 21px;
+  padding: 180px;
+}
+
+.hero-text-1 {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hero-text-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text-5 {
+  display: flex;
+  justify-content: center;
+}
+
+.img1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 150px;
+}
+
+.img1 img {
+  height: 460px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/***************/ /* 2 */
+.img2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 150px;
+}
+
+.img2 img {
+  height: 460px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/*********************************/
+.img3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 150px;
+}
+
+.img3 img {
+  height: 460px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/***********************************/
+.img4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 150px;
+}
+
+.img4 img {
+  height: 460px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/****************************************/
+.img5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 150px;
+}
+
+.img5 img {
+  height: 460px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/************************************/
+.img6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 150px;
+}
+
+.img6 img {
+  height: 460px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/****************************************/
+.img7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 150px;
+}
+
+.img7 img {
+  height: 460px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/*********************************************/
+.img8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 150px;
+}
+
+.img8 img {
+  height: 460px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.hero-foot-0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 70px;
+  border-top: solid 3px;
+}
+
+.hero-foot-1 {
+  font-family: Roboto Mono;
+  padding-bottom: 10px;
+  padding-top: 35px;
+}
+
+.hero-foot-2 {
+  display: flex;
+  width: 50px;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.hero-foot-2 img {
+  padding: 3px;
+}
+
+.hero-foot-3 {
+  font-family: Roboto mono;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-foot-3-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-foot-3-3 {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .containerGlobal-marc {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 110px 200px 400px 800px 500px 500px 500px 500px 500px 500px 500px 500px 500px;
+    grid-template-areas: "nom" "heaad" "carr" "heros-text" "img1s" "img2s" "img3s" "img4s" "img5s" "img6s" "img7s" "img8s" "foo";
+  }
+  .Hero-Name {
+    grid-area: nom;
+  }
+  .Hero-Header {
+    grid-area: heaad;
+  }
+  .Hero-Header ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .Hero-Header li {
+    margin: 0;
+  }
+  .carru {
+    grid-area: carr;
+  }
+  .carousel-item active {
+    width: 100%;
+    height: 400px;
+  }
+  .carousel-item {
+    width: 100%;
+    height: 400px;
+  }
+  .hero-text {
+    grid-area: heros-text;
+    font-size: 18px;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .img1 {
+    grid-area: img1s;
+    padding: 0;
+    margin: 0;
+  }
+  .img2 {
+    grid-area: img2s;
+    padding: 0;
+    margin: 0;
+  }
+  .img3 {
+    grid-area: img3s;
+    padding: 0;
+    margin: 0;
+  }
+  .img4 {
+    grid-area: img4s;
+    padding: 0;
+    margin: 0;
+  }
+  .img5 {
+    grid-area: img5s;
+    padding: 0;
+    margin: 0;
+  }
+  .img6 {
+    grid-area: img6s;
+    padding: 0;
+    margin: 0;
+  }
+  .img7 {
+    grid-area: img7s;
+    padding: 0;
+    margin: 0;
+  }
+  .img8 {
+    grid-area: img8s;
+    padding: 0;
+    margin: 0;
+  }
+  .hero-foot-0 {
+    grid-area: foo;
+  }
+  .ima {
+    width: 640px;
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=marcar.css.map */
